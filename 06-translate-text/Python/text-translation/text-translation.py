@@ -13,6 +13,7 @@ def main():
         cog_key = os.getenv('COG_SERVICE_KEY')
         cog_region = os.getenv('COG_SERVICE_REGION')
         translator_endpoint = 'https://api.cognitive.microsofttranslator.com'
+        
 
         # Analyze each text file in the reviews folder
         reviews_folder = 'reviews'
